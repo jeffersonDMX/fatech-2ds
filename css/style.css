@@ -120,16 +120,21 @@ a{
 .projeto2{
     background-image: url('../img/3d.jpg');
 }
+.projetos3{
+    background-image: url('../img/gamer.png');
+}
+
+.projeto4{
+    background-image: url('../img/drone.jpg');
+}
+
 .projetos{
     background-size: cover;
     width: 100%;
     content: "";
     background-position: center 33%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    z-index: -99;
-    
 }
+
 .bg{
     background-color: #1a1a1ad4;
     display: flex;
