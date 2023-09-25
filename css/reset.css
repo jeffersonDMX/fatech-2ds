@@ -1,48 +1,85 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body{
+    background-color: #FCFBFB;
+    font-family: 'Noto Sans', sans-serif;
+}
+footer{
+    background-color: #1a1a1a;
+    color: #fff;
+}
+footer p{
+    text-align: center;
+    padding: 50px;
+}
+section{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.logotipo, .itensrodape, .sociais{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+footer .menurodape{
+    background-color: #FCFBFB;
+    color: #1a1a1a;
+}
+footer .itensrodape a, footer .sociais{
+    color: #1a1a1a;
+    font-size: 22px;
+    line-height: 30px;
+    text-decoration: none;
+    font-weight: 900;
+}
+.sociais ul li i {
+    font-size: 40px;
+    color: #1a1a1a;
+}
+.sociais ul li{
+    display: inline-block;
+}
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+.localizacao .endereco, .localizacao .mapa{
+    width: 49%;
+    display: inline-block;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+} 
+
+.endereco h2 {
+     font-size: 40px;
+     font-weight: 900;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+.endereco p{
+    padding: 20px;
+    line-height: 25px;
+    font-size: 22px; 
 }
-body {
-	line-height: 1;
+.localizacao .endereco {
+    margin-top: 65px;
+    float: left;
 }
-ol, ul {
-	list-style: none;
+
+a:hover{
+    opacity: 0.7;
+    transition: 0.3;
 }
-blockquote, q {
-	quotes: none;
+
+a{
+    opacity: 1;
+    transition: 0.3;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+.btnblack{
+    color: #FCFBFB;
+    background-color: #1a1a1a;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.maisAtracoes{
+    text-align: center;
+    padding: 100px 0;
 }
+
